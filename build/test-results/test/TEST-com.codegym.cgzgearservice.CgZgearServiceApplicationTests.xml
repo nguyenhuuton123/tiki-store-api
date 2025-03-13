@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.codegym.cgzgearservice.CgZgearServiceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-21T10:05:33" hostname="ADMIN" time="1.414">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.codegym.cgzgearservice.CgZgearServiceApplicationTests" time="1.414"/>
+  <system-out><![CDATA[17:05:13.616 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.codegym.cgzgearservice.CgZgearServiceApplicationTests]: CgZgearServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:05:13.990 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.codegym.cgzgearservice.CgZgearServiceApplication for test class com.codegym.cgzgearservice.CgZgearServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-10-21T17:05:15.189+07:00  INFO 12468 --- [    Test worker] c.c.c.CgZgearServiceApplicationTests     : Starting CgZgearServiceApplicationTests using Java 21.0.4 with PID 12468 (started by Admin in C:\Users\Admin\Documents\cg-zgear-service)
+2024-10-21T17:05:15.192+07:00  INFO 12468 --- [    Test worker] c.c.c.CgZgearServiceApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2024-10-21T17:05:18.972+07:00  INFO 12468 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-21T17:05:19.272+07:00  INFO 12468 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 284 ms. Found 14 JPA repository interfaces.
+2024-10-21T17:05:21.930+07:00  INFO 12468 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.22.3 by Redgate
+2024-10-21T17:05:21.931+07:00  INFO 12468 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2024-10-21T17:05:21.931+07:00  INFO 12468 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : 
+2024-10-21T17:05:22.031+07:00  INFO 12468 --- [    Test worker] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/zgear (MySQL 8.0)
+2024-10-21T17:05:22.166+07:00  INFO 12468 --- [    Test worker] o.f.core.internal.command.DbValidate     : Successfully validated 13 migrations (execution time 00:00.095s)
+2024-10-21T17:05:22.206+07:00  INFO 12468 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema `zgear`: 1.12
+2024-10-21T17:05:22.214+07:00  INFO 12468 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Schema `zgear` is up to date. No migration necessary.
+2024-10-21T17:05:22.451+07:00  INFO 12468 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-21T17:05:22.681+07:00  INFO 12468 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-10-21T17:05:22.874+07:00  INFO 12468 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-21T17:05:23.623+07:00  INFO 12468 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-21T17:05:23.707+07:00  INFO 12468 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-21T17:05:23.788+07:00  INFO 12468 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3398ed12
+2024-10-21T17:05:23.794+07:00  INFO 12468 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-21T17:05:23.884+07:00  WARN 12468 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-21T17:05:27.945+07:00  INFO 12468 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-21T17:05:27.956+07:00  INFO 12468 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-21T17:05:28.984+07:00  INFO 12468 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-21T17:05:30.559+07:00  WARN 12468 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-21T17:05:32.705+07:00  INFO 12468 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40c952f6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29a08daf, org.springframework.security.web.context.SecurityContextHolderFilter@39999eea, org.springframework.security.web.header.HeaderWriterFilter@111c2c9c, org.springframework.web.filter.CorsFilter@64bc291b, org.springframework.security.web.authentication.logout.LogoutFilter@14719b71, com.codegym.cgzgearservice.security.JwtAuthFilter@3798a437, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@635763d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a242227, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13e771e6, org.springframework.security.web.session.SessionManagementFilter@62fd90b6, org.springframework.security.web.access.ExceptionTranslationFilter@74770a8b, org.springframework.security.web.access.intercept.AuthorizationFilter@2ef8ef17]
+2024-10-21T17:05:33.901+07:00  INFO 12468 --- [    Test worker] c.c.c.CgZgearServiceApplicationTests     : Started CgZgearServiceApplicationTests in 19.428 seconds (process running for 24.457)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.10\90ed94ac044ea8953b224304c762316e91fd6b31\byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
