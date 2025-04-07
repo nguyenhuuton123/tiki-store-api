@@ -66,7 +66,7 @@ VALUES ('Nvidia GeForce RTX 3080', 699.99, 1, 1),
 
 
 INSERT INTO product_images (url, product_id)
-VALUES ('https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3080/images/design/geforce-rtx-3080-4-960.jpg',
+VALUES ('https://i.pinimg.com/736x/cb/53/92/cb5392f7c9ffe1f35e519e2c532b57b3.jpg',
         1),
        ('https://hanoicomputercdn.com/media/product/61757_card_man_hinh_msi_rtx_3080_ventus_3x_plus_10g_oc_lhr_1.jpg',
         1),

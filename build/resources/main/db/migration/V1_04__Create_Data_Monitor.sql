@@ -14,7 +14,7 @@ SET @dellS3220DGFId = @acerPredatorId + 1;
 INSERT INTO product_images (url, product_id)
 VALUES
     ('https://product.hstatic.net/200000309925/product/d-01_8f13fde68ada415e87ff91bfc124e54f_595a7789e53f47e9bc02fff479377cbb_master.jpg', @lgUltraGearId),
-    ('https://cdn-amz.woka.io/images/I/71KaGlmHBSL.jpg', @acerPredatorId),
+    ('https://i.pinimg.com/736x/44/4c/9e/444c9eb5427bab7539e694f242716979.jpg', @acerPredatorId),
     ('https://anphat.com.vn/media/product/36164_d18.jpg', @dellS3220DGFId);
 
 -- Inserting product details

@@ -14,8 +14,8 @@ SET @akracingChairId = @secretlabChairId + 1;
 INSERT INTO product_images (url, product_id)
 VALUES
     ('https://product.hstatic.net/200000722513/product/oh-fh08-nw-2_1024x1024_e13ac38e-7715-47ca-9bc2-75b8eb90d3ed_421f210adb3443b9af97e709f81c0e3c_1024x1024.jpg', @dxracerChairId),
-    ('https://secretlab.co.uk/cdn/shop/files/turntable_2020_OM_pu_stealth_2-min.jpg?v=2079812668809504478', @secretlabChairId),
-    ('https://cdn-amz.woka.io/images/I/619HVmAj1TL.jpg', @akracingChairId);
+    ('https://i.pinimg.com/736x/c5/0c/30/c50c30f1114579e49a403349b6767759.jpg', @secretlabChairId),
+    ('https://i.pinimg.com/736x/f2/52/3f/f2523f67c949722259e44cb0d853aadb.jpg', @akracingChairId);
 
 -- Inserting product details for Gaming Chair
 INSERT INTO product_details (product_id, description)
