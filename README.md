@@ -44,7 +44,7 @@ src/main/java/com/codegym/tikistore/
 ### Installation
 1. Clone the repository
 ```bash
-git clone [repository-url]
+git clone https://github.com/nguyenhuuton123/tiki-store-api.git
 ```
 
 2. Configure the database
